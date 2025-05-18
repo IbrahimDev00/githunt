@@ -28,7 +28,7 @@ export const FlickeringGrid: React.FC<FlickeringGridProps> = ({
   width,
   height,
   className,
-  maxOpacity = 0.3,
+  maxOpacity = 0.7,
   ...props
 }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
